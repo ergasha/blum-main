@@ -9,6 +9,7 @@ COPY blum.py .
 
 # Install the required library (requests)
 RUN pip install --no-cache-dir requests
+RUN pip install --no-cache-dir payload
 
 # Command to run your Python script
 CMD ["python", "blum.py"]
