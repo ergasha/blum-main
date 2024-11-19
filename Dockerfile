@@ -7,8 +7,8 @@ WORKDIR /app
 # Copy your Python script into the container
 COPY blum.py .
 
-# Install the required library (requests)
-RUN pip install --no-cache-dir requests
+# Install the required libraries (requests and payload)
+RUN pip install --no-cache-dir requests payload
 
 # Command to run your Python script
 CMD ["python", "blum.py"]
