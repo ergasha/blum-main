@@ -8,7 +8,7 @@ WORKDIR /app
 COPY blum.py .
 
 # Install the required libraries (requests and payload)
-RUN pip install --no-cache-dir requests payload
+RUN pip install -r requirements.txt 
 
 # Command to run your Python script
 CMD ["python", "blum.py"]
