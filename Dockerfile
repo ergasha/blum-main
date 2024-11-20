@@ -11,4 +11,5 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Command to run your Python script
-CMD ["python", "blum.py"]
+CMD ["python", "blum.py", "1", "y", "y"]
+
