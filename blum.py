@@ -839,19 +839,8 @@ def start():
 | __ -|  |__|  |  | | | | YouTube :https://youtube.com/@d4rkcipherx
 |_____|_____|_____|_|_|_| Note : MUST SUBSCRIBE MY YOUTUBE CHANNEL
               
-        Select :
-        1. Claim Daily & Play Game
-        2. Clear Task
-          
           """)
-    selector = '1'
-
-    if selector == '1':
-        main()
-    elif selector == '2':
-        task_main()
-    else:
-        exit()
+    main()
 def printdelay(delay):
     now = datetime.now().isoformat(" ").split(".")[0]
     hours, remainder = divmod(delay, 3600)
