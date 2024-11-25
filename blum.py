@@ -619,7 +619,7 @@ def find_by_id(json_data, id):
 def main():
 
     claim_ref_enable = 'y'.strip().lower()      
-    # check_task_enable = input("want claim task? y/n  : ").strip().lower()
+    # check_task_enable = 'y'.strip().lower()
     check_task_enable = 'n'
     selector_game = 'y'.strip().lower()
     total_blum = 0
@@ -998,6 +998,7 @@ def start():
 
     if selector == '1':
         main()
+    elif selector == '2':
         task_main()
     else:
         exit()
