@@ -618,10 +618,10 @@ def find_by_id(json_data, id):
 
 def main():
 
-    claim_ref_enable = input("want claim ref? y/n  : ").strip().lower()      
+    claim_ref_enable = 'y'.strip().lower()      
     # check_task_enable = input("want claim task? y/n  : ").strip().lower()
     check_task_enable = 'n'
-    selector_game = input("auto playing game ? y/n  : ").strip().lower()
+    selector_game = 'y'.strip().lower()
     total_blum = 0
     while True:
         delete_all()
@@ -994,11 +994,10 @@ def start():
         2. Clear Task
           
           """)
-    selector = input("Select ( 1 / 2 )  : ").strip().lower()
+    selector = '1'.strip().lower()
 
     if selector == '1':
         main()
-    elif selector == '2':
         task_main()
     else:
         exit()
