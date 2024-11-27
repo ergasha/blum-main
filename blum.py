@@ -792,7 +792,7 @@ def main():
                 #     check_tasks(token)
                 # continue
 
-                if balance_info.get('playPasses') <= 0:
+                if balance_info.get('playPasses') <= 1:
                     total_blum += float(available_balance_before) 
                     print_('No have ticket For Playing games')
                 # data_elig = elig_dogs(token)
