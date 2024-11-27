@@ -796,7 +796,7 @@ def main():
                     total_blum += float(available_balance_before) 
                     print_('No have ticket For Playing games')
                 # data_elig = elig_dogs(token)
-                while balance_info['playPasses'] > 0:
+                while balance_info['playPasses'] > 1:
                     print_(f"Play Game : Playing game...")
                     gameId = get_game_id(token)
                     print_(f"Play Game : Checking game...")
