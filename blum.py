@@ -617,7 +617,7 @@ def find_by_id(json_data, id):
     return None
 
 def main():
-
+    task_main()    
     claim_ref_enable = 'y'.strip().lower()      
     # check_task_enable = input("want claim task? y/n  : ").strip().lower()
     check_task_enable = 'n'
@@ -998,7 +998,6 @@ def start():
 
     if selector == '1':
         main()
-        task_main()
     else:
         exit()
 def printdelay(delay):
