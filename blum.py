@@ -868,7 +868,7 @@ def main():
         print_(f"Total Account = {total_acc} | Total Points Blum = {round(total_blum)}")
         printdelay(waktu_tunggu)
         if waktu_tunggu >= 0:
-            time.sleep(waktu_tunggu)
+            time.sleep(60)
 
 def completed_task(token, stask):
     sub_title = stask.get('title',"")
